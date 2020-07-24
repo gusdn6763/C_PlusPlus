@@ -48,7 +48,7 @@ int main()
 			cout << "1-2-2강 참조자의 이해" << endl;
 			cout << "1-2-3강 참조자와 함수" << endl;
 			cout << "1-2-4강 new 와 delete" << endl;
-			cout << "C++에서 C호출하기" << endl;
+			cout << "1-2-5강 C++에서 C호출하기" << endl;
 			cout << endl << "챕터 내용선택";
 			cin >> chapter_num;
 			if (chapter_num == 1)
@@ -77,12 +77,35 @@ int main()
 			system("cls");
 			cout << "1. C++에서의 구조체" << endl;
 			cout << "2. 클래스와 객체" << endl;
+			cout << "3 .객체지향 프로그래밍의 이해" << endl;
+			cout << "4. 문제" << endl;
 			cout << endl << "챕터 내용선택";
 			cin >> chapter_num;
 			if (chapter_num == 1)
-				main211();
+				main231();
 			else if (chapter_num == 2)
-				main212();
+				main232();
+			else if (chapter_num == 3)
+				main233();
+			else if (chapter_num == 4)
+				Exam01();
+		}
+		else if (chapter == 4)
+		{
+			system("cls");
+			cout << "1. 정보은닉" << endl;
+			cout << "2. 캡슐화" << endl;
+			cout << "3 .생성자와 소멸자" << endl;
+			cout << "4. 클래스와 배열 그리고 this 포인터" << endl;
+			cout << "5. OOP프로젝트 2단계" << endl;
+			cout << endl << "챕터 내용선택";
+			cin >> chapter_num;
+			if (chapter_num == 1)
+				main241();
+			if (chapter_num == 2)
+				main242();
+			if (chapter_num == 3)
+				main243();
 		}
 	}
 }

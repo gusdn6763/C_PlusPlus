@@ -13,60 +13,84 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\2-3강 문제">
+      <UniqueIdentifier>{0d00cbc9-04d8-4553-a33f-c171931091be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1강">
+      <UniqueIdentifier>{efc9b6a4-c10b-4de0-b39a-d5878a095263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2-4강 문제">
+      <UniqueIdentifier>{d5ec39ac-3ecc-4977-8267-d366f2cee00c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0강 선택.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1-1-1강 c++기초.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1-1-2강 함수 오버로딩.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1-1-3강 매개변수 디폴트 값.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1-1-4강 인라인 함수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1-1-5강 이름공간과 using.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1-1-6강 OOP프로젝트.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Util.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1-2-1강 Bool자료형.cpp">
+    <ClCompile Include="Calculator.cpp">
+      <Filter>소스 파일\2-3강 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>소스 파일\2-3강 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer.cpp">
+      <Filter>소스 파일\2-3강 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2-3-1강 C++에서의 구조체.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2-3-2강 Car.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2-3-2강 클래스와 객체.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2-3-3강 객체지향 프로그래밍의 이해.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2-4-1강 정보은닉.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2-4-2강 갭슐화.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1-1-1강 c++기초.cpp">
+      <Filter>소스 파일\1강</Filter>
+    </ClCompile>
+    <ClCompile Include="1-1-2강 함수 오버로딩.cpp">
+      <Filter>소스 파일\1강</Filter>
+    </ClCompile>
+    <ClCompile Include="1-1-3강 매개변수 디폴트 값.cpp">
+      <Filter>소스 파일\1강</Filter>
+    </ClCompile>
+    <ClCompile Include="1-1-4강 인라인 함수.cpp">
+      <Filter>소스 파일\1강</Filter>
+    </ClCompile>
+    <ClCompile Include="1-1-5강 이름공간과 using.cpp">
+      <Filter>소스 파일\1강</Filter>
+    </ClCompile>
+    <ClCompile Include="1-1-6강 OOP프로젝트.cpp">
+      <Filter>소스 파일\1강</Filter>
+    </ClCompile>
+    <ClCompile Include="1-2-1강 Bool자료형.cpp">
+      <Filter>소스 파일\1강</Filter>
     </ClCompile>
     <ClCompile Include="1-2-2강 참조자의 이해.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\1강</Filter>
     </ClCompile>
     <ClCompile Include="1-2-3강 참조자와 함수.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\1강</Filter>
     </ClCompile>
     <ClCompile Include="1-2-4강 new 와 delete.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\1강</Filter>
     </ClCompile>
     <ClCompile Include="1-2-5강 C++에서 C호출하기.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\1강</Filter>
     </ClCompile>
-    <ClCompile Include="2-1-1강 C++에서의 구조체.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2-1-2강 클래스와 객체.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2-1-3강 객체지향 프로그래밍의 이해.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2-1강 문제.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2-1-2강 Car.cpp">
+    <ClCompile Include="2-4-3강 생성자와 소멸자.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -77,7 +101,19 @@
     <ClInclude Include="Util.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
-    <ClInclude Include="2-1-2강 Car.h">
+    <ClInclude Include="Calculator.h">
+      <Filter>소스 파일\2-3강 문제</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer.h">
+      <Filter>소스 파일\2-3강 문제</Filter>
+    </ClInclude>
+    <ClInclude Include="2-3-2강 Car.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="2-4-1강 정보은닉.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="2-3-3강 객체지향 프로그래밍의 이해.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>

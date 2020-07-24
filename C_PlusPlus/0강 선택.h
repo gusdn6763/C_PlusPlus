@@ -43,6 +43,16 @@ int			main124();
 
 int			main125();
 
-int			main211();
+int			main231();
 
-int			main212();
+int			main232();
+
+int			main233();
+
+int			Exam01();
+
+int			main241();
+
+int			main242();
+
+int			main243();

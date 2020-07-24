@@ -147,11 +147,16 @@
     <ClCompile Include="1-2-3강 참조자와 함수.cpp" />
     <ClCompile Include="1-2-4강 new 와 delete.cpp" />
     <ClCompile Include="1-2-5강 C++에서 C호출하기.cpp" />
-    <ClCompile Include="2-1-1강 C++에서의 구조체.cpp" />
-    <ClCompile Include="2-1-2강 Car.cpp" />
-    <ClCompile Include="2-1-2강 클래스와 객체.cpp" />
-    <ClCompile Include="2-1-3강 객체지향 프로그래밍의 이해.cpp" />
-    <ClCompile Include="2-1강 문제.cpp" />
+    <ClCompile Include="2-3-1강 C++에서의 구조체.cpp" />
+    <ClCompile Include="2-3-2강 Car.cpp" />
+    <ClCompile Include="2-3-2강 클래스와 객체.cpp" />
+    <ClCompile Include="2-3-3강 객체지향 프로그래밍의 이해.cpp" />
+    <ClCompile Include="2-4-1강 정보은닉.cpp" />
+    <ClCompile Include="2-4-2강 갭슐화.cpp" />
+    <ClCompile Include="2-4-3강 생성자와 소멸자.cpp" />
+    <ClCompile Include="Calculator.cpp" />
+    <ClCompile Include="Printer.cpp" />
+    <ClCompile Include="test.cpp" />
     <ClCompile Include="Util.cpp" />
     <ClCompile Include="0강 선택.cpp" />
     <ClCompile Include="1-1-1강 c++기초.cpp" />
@@ -162,7 +167,11 @@
     <ClCompile Include="1-1-6강 OOP프로젝트.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="2-1-2강 Car.h" />
+    <ClInclude Include="2-3-2강 Car.h" />
+    <ClInclude Include="2-3-3강 객체지향 프로그래밍의 이해.h" />
+    <ClInclude Include="2-4-1강 정보은닉.h" />
+    <ClInclude Include="Calculator.h" />
+    <ClInclude Include="Printer.h" />
     <ClInclude Include="Util.h" />
     <ClInclude Include="0강 선택.h" />
   </ItemGroup>
