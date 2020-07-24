@@ -3,8 +3,7 @@
 #include <iostream>
 #include <windows.h>
 #include <cctype>
-#include "0∞≠ º±≈√.h"
-
+#include <string>
 
 using namespace std;
 

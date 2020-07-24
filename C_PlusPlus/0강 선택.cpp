@@ -9,6 +9,7 @@ int main()
 	cout << endl << "파트 선택 : ";
 	cin >> part;
 	system("cls");
+
 	if (part == 1)
 	{
 		cout << "챕터1 : C 언어 기반의 C++" << endl;
@@ -24,6 +25,7 @@ int main()
 			cout << "3. 매개변수 디폴드 값" << endl;
 			cout << "4. 인라인 함수" << endl;
 			cout << "5. 이름공간과 using" << endl;
+			cout << "6. OOP프로젝트" << endl;
 			cout << endl << "챕터 내용선택";
 			cin >> chapter_num;
 			if (chapter_num == 1)
@@ -37,10 +39,50 @@ int main()
 			else if (chapter_num == 5)
 				main115();
 			else if (chapter_num == 6)
-			{
-				main116();
-			}
-				
+				main116();		
+		}
+		else if(chapter == 2)
+		{
+			system("cls");
+			cout << "1-2-1강 Bool자료형" << endl;
+			cout << "1-2-2강 참조자의 이해" << endl;
+			cout << "1-2-3강 참조자와 함수" << endl;
+			cout << "1-2-4강 new 와 delete" << endl;
+			cout << "C++에서 C호출하기" << endl;
+			cout << endl << "챕터 내용선택";
+			cin >> chapter_num;
+			if (chapter_num == 1)
+				main121();
+			else if (chapter_num == 2)
+				main122();
+			else if (chapter_num == 3)
+				main123();
+			else if (chapter_num == 4)
+				main124();
+			else if (chapter_num == 5)
+				main125();
+		}
+	}
+	else if (part == 2)
+	{
+		cout << "챕터3 : 클래스의 기본" << endl;
+		cout << "챕터4 : 클래스의 완성" << endl;
+		cout << "챕터5 : 복사 생성자" << endl;
+		cout << "챕터6 : friend와 static 그리고 const" << endl;
+		cout << endl << "챕터 선택 : ";
+		cin >> chapter;
+		system("cls");
+		if (chapter == 3)
+		{
+			system("cls");
+			cout << "1. C++에서의 구조체" << endl;
+			cout << "2. 클래스와 객체" << endl;
+			cout << endl << "챕터 내용선택";
+			cin >> chapter_num;
+			if (chapter_num == 1)
+				main211();
+			else if (chapter_num == 2)
+				main212();
 		}
 	}
 }

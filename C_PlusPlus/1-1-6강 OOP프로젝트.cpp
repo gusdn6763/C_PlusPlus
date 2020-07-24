@@ -1,5 +1,3 @@
-#include <iostream>
-#include <windows.h>
 #include "Util.h"
 
 using namespace std;
@@ -66,18 +64,18 @@ void MinusMoney()
 	Sleep(1000);
 }
 
-void menu4()
+void CheckInfo()
 {
-	int c, save;
+	int c;
 	cout << "°èÁÂÁ¤º¸\n" << "°èÁÂID:";
 	cin >> c;
 	for (int i = 0; i < 100; i++)
 	{
 		if (c == people[i].id)
 		{
-			cout << people[i].id << endl;
-			cout << people[i].name <<endl;
-			cout << people[i].money << endl;
+			cout << "°èÁÂid : " << people[i].id << endl;
+			cout << "°èÁÂÀÌ¸§ : " <<people[i].name <<endl;
+			cout << "°èÁÂ µ· : "<<people[i].money << endl;
 		}
 	}
 	cout << " " << endl;
@@ -103,7 +101,7 @@ int main116()
 		else if (num == 3)
 			MinusMoney();
 		else if (num == 4)
-			menu4();
+			CheckInfo();
 		else if (num == 5)
 			break;
 		num = 0;

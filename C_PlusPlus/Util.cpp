@@ -1,23 +1,22 @@
 #include "Util.h"
 
-int getNumber(const char *str)
+using namespace std; 
+  
+int getNumber(const char* str)
 {
-    int num;
+    int value;
+    string checkint;
 
     cout << str;
-    cin >> num;
-    // 잘못된 입력을 받았을 경우
-    if (!cin)
+    cin >> checkint;
+    for (int i = 0; i < (int)checkint.length(); i++)
     {
-        cout << "숫자만 입력해주세요" << endl; // 에러 메시지 출력
-        cin.clear(); // 오류스트림을 초기화
-        cin.ignore(INT_MAX, '\n'); // 입력버퍼를 비움
-        num = 0;
-        getNumber(str); // 함수를 재호출한다
+        if (isdigit(checkint[i]) == false)
+        {
+            cout << "숫자만 입력해주세요";
+            return getNumber(str);
+        }
     }
-    else
-    {
-        cout << cin.fail() << num;
-         return (num);
-    }
+    value = std::stoi(checkint);
+    return value;
 }

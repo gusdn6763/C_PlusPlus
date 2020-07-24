@@ -88,6 +88,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <MinimalRebuild>false</MinimalRebuild>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,6 +142,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1-2-1강 Bool자료형.cpp" />
+    <ClCompile Include="1-2-2강 참조자의 이해.cpp" />
+    <ClCompile Include="1-2-3강 참조자와 함수.cpp" />
+    <ClCompile Include="1-2-4강 new 와 delete.cpp" />
+    <ClCompile Include="1-2-5강 C++에서 C호출하기.cpp" />
+    <ClCompile Include="2-1-1강 C++에서의 구조체.cpp" />
+    <ClCompile Include="2-1-2강 Car.cpp" />
+    <ClCompile Include="2-1-2강 클래스와 객체.cpp" />
+    <ClCompile Include="2-1-3강 객체지향 프로그래밍의 이해.cpp" />
+    <ClCompile Include="2-1강 문제.cpp" />
     <ClCompile Include="Util.cpp" />
     <ClCompile Include="0강 선택.cpp" />
     <ClCompile Include="1-1-1강 c++기초.cpp" />
@@ -149,11 +162,9 @@
     <ClCompile Include="1-1-6강 OOP프로젝트.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="2-1-2강 Car.h" />
     <ClInclude Include="Util.h" />
     <ClInclude Include="0강 선택.h" />
-    <ClInclude Include="2-0강 bool자료형.h" />
-    <ClInclude Include="2-1강 참조자.h" />
-    <ClInclude Include="2-2강 참조자와 함수.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -39,21 +39,45 @@
     <ClCompile Include="Util.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1-2-1강 Bool자료형.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1-2-2강 참조자의 이해.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1-2-3강 참조자와 함수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1-2-4강 new 와 delete.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1-2-5강 C++에서 C호출하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2-1-1강 C++에서의 구조체.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2-1-2강 클래스와 객체.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2-1-3강 객체지향 프로그래밍의 이해.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2-1강 문제.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2-1-2강 Car.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="0강 선택.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
-    <ClInclude Include="2-0강 bool자료형.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="2-1강 참조자.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="2-2강 참조자와 함수.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
     <ClInclude Include="Util.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="2-1-2강 Car.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>
