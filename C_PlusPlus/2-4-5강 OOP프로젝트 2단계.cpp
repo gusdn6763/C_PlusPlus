@@ -29,12 +29,12 @@ namespace Simulate
 
 	void	Bank::MakeAccount(People *currentPeople)
 	{
+		account = new unordered_map<string, Account>;
 		cout << "계좌는 최대 1개까지 생성할 수 있습니다." << endl;
-		if (account->count(currentPeople->name) == 0)
+		if (account->empty() == 0)
 		{
 			cout << currentPeople->name << "은(는) 현재 계좌가 없습니다. 만드시겠습니까?" << endl;
 		}
-		account = new map<string, Account>;
 	}
 
 	void	Bank::ShowInfo(People *currentPeople)

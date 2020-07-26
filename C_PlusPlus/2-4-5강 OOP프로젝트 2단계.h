@@ -1,7 +1,7 @@
 #pragma once
 
 #include <cstring>
-#include <map>
+#include <unordered_map>
 
 namespace Simulate
 {
@@ -38,7 +38,7 @@ namespace Simulate
 		int			MinusMoney(People *currentPeople);
 		void		MakeAccount(People *currentPeople);
 	private:
-		map<string, Account> *account;
+		unordered_map<string, Account> *account;
 	};
 
 	void	ShowChooseNum(const char* str);
