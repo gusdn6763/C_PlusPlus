@@ -12,6 +12,7 @@ namespace Simulate
 
 		while (1)
 		{
+			ShowChooseNum("1. 계좌개설 2.입금 3.출금 4.계좌 정보 5.나가기");
 			cin >> num;
 
 			if (num == 1)
@@ -29,12 +30,27 @@ namespace Simulate
 
 	void	Bank::MakeAccount(People *currentPeople)
 	{
-		account = new unordered_map<string, Account>;
-		cout << "계좌는 최대 1개까지 생성할 수 있습니다." << endl;
-		if (account->empty() == 0)
+		unordered_map<string, Account>::iterator *tmp = new unordered_map<string, Account>::iterator;
+		
+		*tmp = account->find(currentPeople->name);
+		if (!(*tmp != account->end()))
 		{
-			cout << currentPeople->name << "은(는) 현재 계좌가 없습니다. 만드시겠습니까?" << endl;
+			Account peopleAccount;
+			string  password;
+			std::random_device rd;				 // 시드값을 얻기 위한 random_device 생성.
+			std::mt19937 gen(rd());				// random_device 를 통해 난수 생성 엔진을 초기화 한다.
+
+			std::uniform_int_distribution<int> dis(1, 10000);	 // 균등하게 나타나는 난수열을 생성하기 위해 균등 분포 정의.
+			cout << currentPeople->name << " 님은 현재 계좌가 없습니다." << endl;
+			cout << "설정할 비밀번호를 입력해주세요" << endl;
+			cin >> password;
+			peopleAccount.password = password;
+			peopleAccount.Money = 0;
+			peopleAccount.id = dis(gen);
+			account->insert(pair<string, Account>(currentPeople->name, peopleAccount));
 		}
+		else
+			cout << "현재 계좌가 있습니다.! 여러개의 계좌를 만드는것은 언젠가 구현 예정입니다." << endl;
 	}
 
 	void	Bank::ShowInfo(People *currentPeople)
@@ -89,7 +105,7 @@ namespace Simulate
 	int main245()
 	{
 		int num;
-		Bank *bank = new Bank;
+		Bank *bank = new Bank();
 
 		StartSimulate();
 		People* currentPeople = MakePeople();
@@ -98,10 +114,7 @@ namespace Simulate
 			ShowChooseNum("1.은행가기  2.일하기  3.캐릭터 선택창");
 			cin >> num;
 			if (num == 1)
-			{
-				ShowChooseNum("1. 계좌개설 2.입금 3.출금 4.계좌 정보 5.나가기");
 				currentPeople->GetInBank(bank);
-			}
 			else if (num == 2)
 			{
 

@@ -10,7 +10,9 @@ namespace Simulate
 
 	typedef struct Account
 	{
+		int			id;
 		int			Money;
+		string		password;
 	}				Account;
 
 	class			People
@@ -33,6 +35,10 @@ namespace Simulate
 	class			Bank
 	{
 	public:
+		Bank()
+		{
+			account = new unordered_map<string, Account>;
+		}
 		void		ShowInfo(People *currentPeople);
 		int			AddMoney(People *currentPeople);
 		int			MinusMoney(People *currentPeople);

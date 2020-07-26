@@ -4,6 +4,7 @@
 #include <windows.h>
 #include <cctype>
 #include <string>
+#include <random>
 
 using namespace std;
 
