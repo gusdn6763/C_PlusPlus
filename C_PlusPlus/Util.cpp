@@ -20,3 +20,19 @@ int getNumber(const char* str)
     value = std::stoi(checkint);
     return value;
 }
+
+int		ft_strcpy(char *dest, char *src)
+{
+	int     i;
+	int     j;
+	char	*src_tmp;
+
+	i = strlen(src);
+	j = -1;
+
+	src_tmp = (char *)src;
+	while (src_tmp[++j] != '\0')
+		dest[j] = src_tmp[j];
+	dest[j] = '\0';
+	return (i);
+}

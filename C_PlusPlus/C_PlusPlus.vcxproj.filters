@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\2-4강 문제">
       <UniqueIdentifier>{d5ec39ac-3ecc-4977-8267-d366f2cee00c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2강">
+      <UniqueIdentifier>{feb2ca68-d931-40de-83b5-039822544878}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0강 선택.cpp">
@@ -38,24 +41,6 @@
     </ClCompile>
     <ClCompile Include="Printer.cpp">
       <Filter>소스 파일\2-3강 문제</Filter>
-    </ClCompile>
-    <ClCompile Include="2-3-1강 C++에서의 구조체.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2-3-2강 Car.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2-3-2강 클래스와 객체.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2-3-3강 객체지향 프로그래밍의 이해.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2-4-1강 정보은닉.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2-4-2강 갭슐화.cpp">
-      <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1-1-1강 c++기초.cpp">
       <Filter>소스 파일\1강</Filter>
@@ -90,8 +75,32 @@
     <ClCompile Include="1-2-5강 C++에서 C호출하기.cpp">
       <Filter>소스 파일\1강</Filter>
     </ClCompile>
+    <ClCompile Include="2-3-1강 C++에서의 구조체.cpp">
+      <Filter>소스 파일\2강</Filter>
+    </ClCompile>
+    <ClCompile Include="2-3-2강 Car.cpp">
+      <Filter>소스 파일\2강</Filter>
+    </ClCompile>
+    <ClCompile Include="2-3-2강 클래스와 객체.cpp">
+      <Filter>소스 파일\2강</Filter>
+    </ClCompile>
+    <ClCompile Include="2-3-3강 객체지향 프로그래밍의 이해.cpp">
+      <Filter>소스 파일\2강</Filter>
+    </ClCompile>
+    <ClCompile Include="2-4-1강 정보은닉.cpp">
+      <Filter>소스 파일\2강</Filter>
+    </ClCompile>
+    <ClCompile Include="2-4-2강 갭슐화.cpp">
+      <Filter>소스 파일\2강</Filter>
+    </ClCompile>
     <ClCompile Include="2-4-3강 생성자와 소멸자.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\2강</Filter>
+    </ClCompile>
+    <ClCompile Include="2-4-4강 클래스와 배열 그리고 this 포인터.cpp">
+      <Filter>소스 파일\2강</Filter>
+    </ClCompile>
+    <ClCompile Include="2-4-5강 OOP프로젝트 2단계.cpp">
+      <Filter>소스 파일\2강</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -108,13 +117,16 @@
       <Filter>소스 파일\2-3강 문제</Filter>
     </ClInclude>
     <ClInclude Include="2-3-2강 Car.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="2-4-1강 정보은닉.h">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\2강</Filter>
     </ClInclude>
     <ClInclude Include="2-3-3강 객체지향 프로그래밍의 이해.h">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\2강</Filter>
+    </ClInclude>
+    <ClInclude Include="2-4-1강 정보은닉.h">
+      <Filter>소스 파일\2강</Filter>
+    </ClInclude>
+    <ClInclude Include="2-4-5강 OOP프로젝트 2단계.h">
+      <Filter>소스 파일\2강</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

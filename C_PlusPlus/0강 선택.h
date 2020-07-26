@@ -56,3 +56,5 @@ int			main241();
 int			main242();
 
 int			main243();
+
+int			main244();

@@ -1,113 +1,121 @@
 #include "0강 선택.h"
+#include "2-4-5강 OOP프로젝트 2단계.h"
+
+using namespace Simulate;
 
 int main()
 {
-	int part, chapter, chapter_num;
+	main245();
+	//int part, chapter, chapter_num;
 
-	cout << "1.C++로의 전환" << endl;
-	cout << "2.객체지향의 도입" << endl;
-	cout << endl << "파트 선택 : ";
-	cin >> part;
-	system("cls");
+	//cout << "1.C++로의 전환" << endl;
+	//cout << "2.객체지향의 도입" << endl;
+	//cout << endl << "파트 선택 : ";
+	//cin >> part;
+	//system("cls");
 
-	if (part == 1)
-	{
-		cout << "챕터1 : C 언어 기반의 C++" << endl;
-		cout << "챕터2 : C 언어 기반의 C++" << endl;
-		cout << endl << "챕터 선택 : ";
-		cin >> chapter;
-		system("cls");
-		if (chapter == 1)
-		{
-			system("cls");
-			cout << "1. printf와 scanf를 대신하는 입출력 방식" << endl;
-			cout << "2. 함수 오버로딩" << endl;
-			cout << "3. 매개변수 디폴드 값" << endl;
-			cout << "4. 인라인 함수" << endl;
-			cout << "5. 이름공간과 using" << endl;
-			cout << "6. OOP프로젝트" << endl;
-			cout << endl << "챕터 내용선택";
-			cin >> chapter_num;
-			if (chapter_num == 1)
-				main111();
-			else if (chapter_num == 2)
-				main112();
-			else if (chapter_num == 3)
-				main113();
-			else if (chapter_num == 4)
-				main114();
-			else if (chapter_num == 5)
-				main115();
-			else if (chapter_num == 6)
-				main116();		
-		}
-		else if(chapter == 2)
-		{
-			system("cls");
-			cout << "1-2-1강 Bool자료형" << endl;
-			cout << "1-2-2강 참조자의 이해" << endl;
-			cout << "1-2-3강 참조자와 함수" << endl;
-			cout << "1-2-4강 new 와 delete" << endl;
-			cout << "1-2-5강 C++에서 C호출하기" << endl;
-			cout << endl << "챕터 내용선택";
-			cin >> chapter_num;
-			if (chapter_num == 1)
-				main121();
-			else if (chapter_num == 2)
-				main122();
-			else if (chapter_num == 3)
-				main123();
-			else if (chapter_num == 4)
-				main124();
-			else if (chapter_num == 5)
-				main125();
-		}
-	}
-	else if (part == 2)
-	{
-		cout << "챕터3 : 클래스의 기본" << endl;
-		cout << "챕터4 : 클래스의 완성" << endl;
-		cout << "챕터5 : 복사 생성자" << endl;
-		cout << "챕터6 : friend와 static 그리고 const" << endl;
-		cout << endl << "챕터 선택 : ";
-		cin >> chapter;
-		system("cls");
-		if (chapter == 3)
-		{
-			system("cls");
-			cout << "1. C++에서의 구조체" << endl;
-			cout << "2. 클래스와 객체" << endl;
-			cout << "3 .객체지향 프로그래밍의 이해" << endl;
-			cout << "4. 문제" << endl;
-			cout << endl << "챕터 내용선택";
-			cin >> chapter_num;
-			if (chapter_num == 1)
-				main231();
-			else if (chapter_num == 2)
-				main232();
-			else if (chapter_num == 3)
-				main233();
-			else if (chapter_num == 4)
-				Exam01();
-		}
-		else if (chapter == 4)
-		{
-			system("cls");
-			cout << "1. 정보은닉" << endl;
-			cout << "2. 캡슐화" << endl;
-			cout << "3 .생성자와 소멸자" << endl;
-			cout << "4. 클래스와 배열 그리고 this 포인터" << endl;
-			cout << "5. OOP프로젝트 2단계" << endl;
-			cout << endl << "챕터 내용선택";
-			cin >> chapter_num;
-			if (chapter_num == 1)
-				main241();
-			if (chapter_num == 2)
-				main242();
-			if (chapter_num == 3)
-				main243();
-		}
-	}
+	//if (part == 1)
+	//{
+	//	cout << "챕터1 : C 언어 기반의 C++" << endl;
+	//	cout << "챕터2 : C 언어 기반의 C++" << endl;
+	//	cout << endl << "챕터 선택 : ";
+	//	cin >> chapter;
+	//	system("cls");
+	//	if (chapter == 1)
+	//	{
+	//		system("cls");
+	//		cout << "1. printf와 scanf를 대신하는 입출력 방식" << endl;
+	//		cout << "2. 함수 오버로딩" << endl;
+	//		cout << "3. 매개변수 디폴드 값" << endl;
+	//		cout << "4. 인라인 함수" << endl;
+	//		cout << "5. 이름공간과 using" << endl;
+	//		cout << "6. OOP프로젝트" << endl;
+	//		cout << endl << "챕터 내용선택";
+	//		cin >> chapter_num;
+	//		if (chapter_num == 1)
+	//			main111();
+	//		else if (chapter_num == 2)
+	//			main112();
+	//		else if (chapter_num == 3)
+	//			main113();
+	//		else if (chapter_num == 4)
+	//			main114();
+	//		else if (chapter_num == 5)
+	//			main115();
+	//		else if (chapter_num == 6)
+	//			main116();		
+	//	}
+	//	else if(chapter == 2)
+	//	{
+	//		system("cls");
+	//		cout << "1-2-1강 Bool자료형" << endl;
+	//		cout << "1-2-2강 참조자의 이해" << endl;
+	//		cout << "1-2-3강 참조자와 함수" << endl;
+	//		cout << "1-2-4강 new 와 delete" << endl;
+	//		cout << "1-2-5강 C++에서 C호출하기" << endl;
+	//		cout << endl << "챕터 내용선택";
+	//		cin >> chapter_num;
+	//		if (chapter_num == 1)
+	//			main121();
+	//		else if (chapter_num == 2)
+	//			main122();
+	//		else if (chapter_num == 3)
+	//			main123();
+	//		else if (chapter_num == 4)
+	//			main124();
+	//		else if (chapter_num == 5)
+	//			main125();
+	//	}
+	//}
+	//else if (part == 2)
+	//{
+	//	cout << "챕터3 : 클래스의 기본" << endl;
+	//	cout << "챕터4 : 클래스의 완성" << endl;
+	//	cout << "챕터5 : 복사 생성자" << endl;
+	//	cout << "챕터6 : friend와 static 그리고 const" << endl;
+	//	cout << endl << "챕터 선택 : ";
+	//	cin >> chapter;
+	//	system("cls");
+	//	if (chapter == 3)
+	//	{
+	//		system("cls");
+	//		cout << "1. C++에서의 구조체" << endl;
+	//		cout << "2. 클래스와 객체" << endl;
+	//		cout << "3 .객체지향 프로그래밍의 이해" << endl;
+	//		cout << "4. 문제" << endl;
+	//		cout << endl << "챕터 내용선택";
+	//		cin >> chapter_num;
+	//		if (chapter_num == 1)
+	//			main231();
+	//		else if (chapter_num == 2)
+	//			main232();
+	//		else if (chapter_num == 3)
+	//			main233();
+	//		else if (chapter_num == 4)
+	//			Exam01();
+	//	}
+	//	else if (chapter == 4)
+	//	{
+	//		system("cls");
+	//		cout << "1. 정보은닉" << endl;
+	//		cout << "2. 캡슐화" << endl;
+	//		cout << "3 .생성자와 소멸자" << endl;
+	//		cout << "4. 클래스와 배열 그리고 this 포인터" << endl;
+	//		cout << "5. OOP프로젝트 2단계" << endl;
+	//		cout << endl << "챕터 내용선택";
+	//		cin >> chapter_num;
+	//		if (chapter_num == 1)
+	//			main241();
+	//		if (chapter_num == 2)
+	//			main242();
+	//		if (chapter_num == 3)
+	//			main243();
+	//		if (chapter_num == 4)
+	//			main244();
+	//		if (chapter_num == 5)
+	//			Simulate::main245();
+	//	}
+	//}
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴

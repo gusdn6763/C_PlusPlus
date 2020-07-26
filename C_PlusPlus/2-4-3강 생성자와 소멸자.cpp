@@ -27,7 +27,6 @@ public:
 class SimpleClass
 {
 private:
-	int num;
 	Pos pos;
 public:
 	SimpleClass(int x , int y, int n = 0)		//생성자
@@ -39,6 +38,10 @@ public:
 	void ShowNum()
 	{
 		pos.ShowPos();
+	}
+	~SimpleClass()
+	{
+		cout << "종료!" << endl;
 	}
 };
 

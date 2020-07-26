@@ -154,6 +154,8 @@
     <ClCompile Include="2-4-1강 정보은닉.cpp" />
     <ClCompile Include="2-4-2강 갭슐화.cpp" />
     <ClCompile Include="2-4-3강 생성자와 소멸자.cpp" />
+    <ClCompile Include="2-4-4강 클래스와 배열 그리고 this 포인터.cpp" />
+    <ClCompile Include="2-4-5강 OOP프로젝트 2단계.cpp" />
     <ClCompile Include="Calculator.cpp" />
     <ClCompile Include="Printer.cpp" />
     <ClCompile Include="test.cpp" />
@@ -170,6 +172,7 @@
     <ClInclude Include="2-3-2강 Car.h" />
     <ClInclude Include="2-3-3강 객체지향 프로그래밍의 이해.h" />
     <ClInclude Include="2-4-1강 정보은닉.h" />
+    <ClInclude Include="2-4-5강 OOP프로젝트 2단계.h" />
     <ClInclude Include="Calculator.h" />
     <ClInclude Include="Printer.h" />
     <ClInclude Include="Util.h" />
