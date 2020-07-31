@@ -156,9 +156,9 @@
     <ClCompile Include="2-4-3강 생성자와 소멸자.cpp" />
     <ClCompile Include="2-4-4강 클래스와 배열 그리고 this 포인터.cpp" />
     <ClCompile Include="2-4-5강 OOP프로젝트 2단계.cpp" />
+    <ClCompile Include="2-5-1강 복사 생성자.cpp" />
     <ClCompile Include="Calculator.cpp" />
     <ClCompile Include="Printer.cpp" />
-    <ClCompile Include="test.cpp" />
     <ClCompile Include="Util.cpp" />
     <ClCompile Include="0강 선택.cpp" />
     <ClCompile Include="1-1-1강 c++기초.cpp" />

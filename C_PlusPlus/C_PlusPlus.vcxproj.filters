@@ -19,9 +19,6 @@
     <Filter Include="소스 파일\1강">
       <UniqueIdentifier>{efc9b6a4-c10b-4de0-b39a-d5878a095263}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\2-4강 문제">
-      <UniqueIdentifier>{d5ec39ac-3ecc-4977-8267-d366f2cee00c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\2강">
       <UniqueIdentifier>{feb2ca68-d931-40de-83b5-039822544878}</UniqueIdentifier>
     </Filter>
@@ -34,9 +31,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Calculator.cpp">
-      <Filter>소스 파일\2-3강 문제</Filter>
-    </ClCompile>
-    <ClCompile Include="test.cpp">
       <Filter>소스 파일\2-3강 문제</Filter>
     </ClCompile>
     <ClCompile Include="Printer.cpp">
@@ -100,6 +94,9 @@
       <Filter>소스 파일\2강</Filter>
     </ClCompile>
     <ClCompile Include="2-4-5강 OOP프로젝트 2단계.cpp">
+      <Filter>소스 파일\2강</Filter>
+    </ClCompile>
+    <ClCompile Include="2-5-1강 복사 생성자.cpp">
       <Filter>소스 파일\2강</Filter>
     </ClCompile>
   </ItemGroup>
