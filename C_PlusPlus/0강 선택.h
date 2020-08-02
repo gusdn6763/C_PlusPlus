@@ -49,7 +49,7 @@ int			main232();
 
 int			main233();
 
-int			Exam01();
+int			exam01();
 
 int			main241();
 
@@ -58,3 +58,15 @@ int			main242();
 int			main243();
 
 int			main244();
+
+int			main251();
+
+int			main252();
+
+int			main253();
+
+int			main261();
+
+int			main262();
+
+int			main263();

@@ -39,3 +39,32 @@ float Calculator::Mul(float num1, float num2)
 	mul_count++;
 	return num1 * num2;
 }
+
+int	exam01()
+{
+	Calculator cal;
+
+	while (1)
+	{
+		int num;
+		cout << "µ¡¼À : 1 »¬»ù : 2 ³ª´©±â : 3 °öÇÏ±â : 4 ÇöÀç È½¼ö : 5³ª±â±â : 0" << endl;
+		cin >> num;
+		if (!num)
+			return (0);
+
+		float num1, num2;
+		cout << "¼ýÀÚ 2°³ ÀÔ·Â" << endl;
+		cin >> num1 >> num2;
+		if (num == 1)
+			cal.Add(num1, num2);
+		if (num == 2)
+			cal.Min(num1, num2);
+		if (num == 3)
+			cal.Div(num1, num2);
+		if (num == 4)
+			cal.Mul(num1, num2);
+		if (num == 5)
+			cal.ShowOpCount();
+	}
+	return (0);
+}

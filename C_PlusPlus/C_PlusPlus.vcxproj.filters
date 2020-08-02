@@ -13,14 +13,17 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\2-3강 문제">
-      <UniqueIdentifier>{0d00cbc9-04d8-4553-a33f-c171931091be}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\1강">
       <UniqueIdentifier>{efc9b6a4-c10b-4de0-b39a-d5878a095263}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\2강">
       <UniqueIdentifier>{feb2ca68-d931-40de-83b5-039822544878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2강\2-3강 문제">
+      <UniqueIdentifier>{0d00cbc9-04d8-4553-a33f-c171931091be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3강">
+      <UniqueIdentifier>{4b40a84f-6fe2-4839-a7f6-8129c4f5717b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -31,10 +34,10 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Calculator.cpp">
-      <Filter>소스 파일\2-3강 문제</Filter>
+      <Filter>소스 파일\2강\2-3강 문제</Filter>
     </ClCompile>
     <ClCompile Include="Printer.cpp">
-      <Filter>소스 파일\2-3강 문제</Filter>
+      <Filter>소스 파일\2강\2-3강 문제</Filter>
     </ClCompile>
     <ClCompile Include="1-1-1강 c++기초.cpp">
       <Filter>소스 파일\1강</Filter>
@@ -99,6 +102,36 @@
     <ClCompile Include="2-5-1강 복사 생성자.cpp">
       <Filter>소스 파일\2강</Filter>
     </ClCompile>
+    <ClCompile Include="2-6-1강 const의 추가설명.cpp">
+      <Filter>소스 파일\2강</Filter>
+    </ClCompile>
+    <ClCompile Include="2-5-2강 깊은 복사 생성자와 얖은 복사 생성자.cpp">
+      <Filter>소스 파일\2강</Filter>
+    </ClCompile>
+    <ClCompile Include="2-5-3강 복사 생성자의 호출시점.cpp">
+      <Filter>소스 파일\2강</Filter>
+    </ClCompile>
+    <ClCompile Include="2-6-2강 클래스와 함수에 대한 friend 선언.cpp">
+      <Filter>소스 파일\2강</Filter>
+    </ClCompile>
+    <ClCompile Include="2-6-3강 C++에서의 static.cpp">
+      <Filter>소스 파일\2강</Filter>
+    </ClCompile>
+    <ClCompile Include="3-7-1강 상속.cpp">
+      <Filter>소스 파일\3강</Filter>
+    </ClCompile>
+    <ClCompile Include="3-7-2강 상속의 문법적인 이해.cpp">
+      <Filter>소스 파일\3강</Filter>
+    </ClCompile>
+    <ClCompile Include="3-7-3강 3가지 형태의 상속.cpp">
+      <Filter>소스 파일\3강</Filter>
+    </ClCompile>
+    <ClCompile Include="3-7-4강 상속의 조건.cpp">
+      <Filter>소스 파일\3강</Filter>
+    </ClCompile>
+    <ClCompile Include="3-7-5강 OOP 프로젝트 5단계.cpp">
+      <Filter>소스 파일\3강</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="0강 선택.h">
@@ -108,10 +141,10 @@
       <Filter>소스 파일</Filter>
     </ClInclude>
     <ClInclude Include="Calculator.h">
-      <Filter>소스 파일\2-3강 문제</Filter>
+      <Filter>소스 파일\2강\2-3강 문제</Filter>
     </ClInclude>
     <ClInclude Include="Printer.h">
-      <Filter>소스 파일\2-3강 문제</Filter>
+      <Filter>소스 파일\2강\2-3강 문제</Filter>
     </ClInclude>
     <ClInclude Include="2-3-2강 Car.h">
       <Filter>소스 파일\2강</Filter>

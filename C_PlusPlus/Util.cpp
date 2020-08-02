@@ -21,7 +21,7 @@ int getNumber(const char* str)
     return value;
 }
 
-int		ft_strcpy(char *dest, char *src)
+int		ft_strcpy(char *dest, const char *src)
 {
 	int     i;
 	int     j;

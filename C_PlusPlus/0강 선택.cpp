@@ -5,7 +5,6 @@ using namespace Simulate;
 
 int main()
 {
-	main245();
 	int part, chapter, chapter_num;
 
 	cout << "1.c++로의 전환" << endl;
@@ -113,7 +112,37 @@ int main()
 			if (chapter_num == 4)
 				main244();
 			if (chapter_num == 5)
-				main245();
+				Simulate::main245();
+		}
+		else if (chapter == 5)
+		{
+			system("cls");
+			cout << "1. 복사 생성자" << endl;
+			cout << "2. 깊은 복사 생성자와 얖은 복사 생성자" << endl;
+			cout << "3 .복사 생성자의 호출시점" << endl;
+			cout << endl << "챕터 내용선택";
+			cin >> chapter_num;
+			if (chapter_num == 1)
+				main251();
+			if (chapter_num == 2)
+				main252();
+			if (chapter_num == 3)
+				main253();
+		}
+		else if (chapter == 6)
+		{
+			system("cls");
+			cout << "1. const의 추가설명" << endl;
+			cout << "2. 클래스와 함수에 대한 friend 선언" << endl;
+			cout << "3 .C++에서의 static" << endl;
+			cout << endl << "챕터 내용선택";
+			cin >> chapter_num;
+			if (chapter_num == 1)
+				main261();
+			if (chapter_num == 2)
+				main262();
+			if (chapter_num == 3)
+				main263();
 		}
 	}
 }
