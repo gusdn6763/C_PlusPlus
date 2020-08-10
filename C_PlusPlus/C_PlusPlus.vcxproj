@@ -166,7 +166,7 @@
     <ClCompile Include="3-7-3강 3가지 형태의 상속.cpp" />
     <ClCompile Include="3-7-2강 상속의 문법적인 이해.cpp" />
     <ClCompile Include="3-7-4강 상속의 조건.cpp" />
-    <ClCompile Include="3-7-5강 OOP 프로젝트 5단계.cpp" />
+    <ClCompile Include="3-7-5강 OOP프로젝트 5단계.cpp" />
     <ClCompile Include="Calculator.cpp" />
     <ClCompile Include="Printer.cpp" />
     <ClCompile Include="Util.cpp" />
@@ -183,6 +183,7 @@
     <ClInclude Include="2-3-3강 객체지향 프로그래밍의 이해.h" />
     <ClInclude Include="2-4-1강 정보은닉.h" />
     <ClInclude Include="2-4-5강 OOP프로젝트 2단계.h" />
+    <ClInclude Include="3-7-5강 OOP프로젝트 5단계.h" />
     <ClInclude Include="Calculator.h" />
     <ClInclude Include="Printer.h" />
     <ClInclude Include="Util.h" />

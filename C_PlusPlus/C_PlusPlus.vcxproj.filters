@@ -129,7 +129,7 @@
     <ClCompile Include="3-7-4강 상속의 조건.cpp">
       <Filter>소스 파일\3강</Filter>
     </ClCompile>
-    <ClCompile Include="3-7-5강 OOP 프로젝트 5단계.cpp">
+    <ClCompile Include="3-7-5강 OOP프로젝트 5단계.cpp">
       <Filter>소스 파일\3강</Filter>
     </ClCompile>
   </ItemGroup>
@@ -157,6 +157,9 @@
     </ClInclude>
     <ClInclude Include="2-4-5강 OOP프로젝트 2단계.h">
       <Filter>소스 파일\2강</Filter>
+    </ClInclude>
+    <ClInclude Include="3-7-5강 OOP프로젝트 5단계.h">
+      <Filter>소스 파일\3강</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

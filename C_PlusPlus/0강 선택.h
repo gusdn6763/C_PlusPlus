@@ -70,3 +70,11 @@ int			main261();
 int			main262();
 
 int			main263();
+
+int			main371();
+
+int			main372();
+
+int			main373();
+
+int			main374();
