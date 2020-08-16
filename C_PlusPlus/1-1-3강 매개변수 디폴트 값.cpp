@@ -15,6 +15,6 @@ int DefaultFunc(int num, int num1, int num2 = 5)
 int main113()
 {
 	int num = 1, num1 = 2;
-	std::cout << DefaultFunc() << "\n" << DefaultFunc(num);
+	std::cout << DefaultFunc() << "\n" << DefaultFunc(num, num1);
 	return 0;
 }

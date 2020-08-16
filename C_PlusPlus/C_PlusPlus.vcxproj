@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ac676fb5-4af0-47a6-af2a-c7ec08c911bf}</ProjectGuid>
+    <ProjectGuid>{39e39dd0-b3e8-4004-b779-85629cfaeb16}</ProjectGuid>
     <RootNamespace>CPlusPlus</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -88,9 +88,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <MinimalRebuild>false</MinimalRebuild>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -142,6 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="0강 선택.cpp" />
+    <ClCompile Include="1-1-1강 c++기초.cpp" />
+    <ClCompile Include="1-1-2강 함수 오버로딩.cpp" />
+    <ClCompile Include="1-1-3강 매개변수 디폴트 값.cpp" />
+    <ClCompile Include="1-1-4강 인라인 함수.cpp" />
+    <ClCompile Include="1-1-5강 이름공간과 using.cpp" />
+    <ClCompile Include="1-1-6강 OOP프로젝트.cpp" />
     <ClCompile Include="1-2-1강 Bool자료형.cpp" />
     <ClCompile Include="1-2-2강 참조자의 이해.cpp" />
     <ClCompile Include="1-2-3강 참조자와 함수.cpp" />
@@ -163,31 +167,28 @@
     <ClCompile Include="2-6-2강 클래스와 함수에 대한 friend 선언.cpp" />
     <ClCompile Include="2-6-3강 C++에서의 static.cpp" />
     <ClCompile Include="3-7-1강 상속.cpp" />
-    <ClCompile Include="3-7-3강 3가지 형태의 상속.cpp" />
     <ClCompile Include="3-7-2강 상속의 문법적인 이해.cpp" />
+    <ClCompile Include="3-7-3강 3가지 형태의 상속.cpp" />
     <ClCompile Include="3-7-4강 상속의 조건.cpp" />
     <ClCompile Include="3-7-5강 OOP프로젝트 5단계.cpp" />
-    <ClCompile Include="Calculator.cpp" />
-    <ClCompile Include="Printer.cpp" />
+    <ClCompile Include="문제 03-2.cpp" />
+    <ClCompile Include="문제 01-1.cpp" />
     <ClCompile Include="Util.cpp" />
-    <ClCompile Include="0강 선택.cpp" />
-    <ClCompile Include="1-1-1강 c++기초.cpp" />
-    <ClCompile Include="1-1-2강 함수 오버로딩.cpp" />
-    <ClCompile Include="1-1-3강 매개변수 디폴트 값.cpp" />
-    <ClCompile Include="1-1-4강 인라인 함수.cpp" />
-    <ClCompile Include="1-1-5강 이름공간과 using.cpp" />
-    <ClCompile Include="1-1-6강 OOP프로젝트.cpp" />
+    <ClCompile Include="문제 01-2.cpp" />
+    <ClCompile Include="문제 01-3.cpp" />
+    <ClCompile Include="문제 02-1.cpp" />
+    <ClCompile Include="문제 02-3.cpp" />
+    <ClCompile Include="문제 03-1.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="0강 선택.h" />
     <ClInclude Include="2-3-2강 Car.h" />
     <ClInclude Include="2-3-3강 객체지향 프로그래밍의 이해.h" />
     <ClInclude Include="2-4-1강 정보은닉.h" />
     <ClInclude Include="2-4-5강 OOP프로젝트 2단계.h" />
     <ClInclude Include="3-7-5강 OOP프로젝트 5단계.h" />
-    <ClInclude Include="Calculator.h" />
-    <ClInclude Include="Printer.h" />
     <ClInclude Include="Util.h" />
-    <ClInclude Include="0강 선택.h" />
+    <ClInclude Include="문제 03-2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
