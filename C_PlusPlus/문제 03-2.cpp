@@ -51,7 +51,7 @@ void Printer::ShowString()
 }
 
 
-int	exam032()
+void	exam032()
 {
 	Calculator cal;
 
@@ -61,7 +61,7 @@ int	exam032()
 		cout << "µ¡¼À : 1 »¬»ù : 2 ³ª´©±â : 3 °öÇÏ±â : 4 ÇöÀç È½¼ö : 5³ª±â±â : 0" << endl;
 		cin >> num;
 		if (!num)
-			return (0);
+			break;
 
 		float num1, num2;
 		cout << "¼ýÀÚ 2°³ ÀÔ·Â" << endl;
@@ -77,5 +77,4 @@ int	exam032()
 		if (num == 5)
 			cal.ShowOpCount();
 	}
-	return (0);
 }

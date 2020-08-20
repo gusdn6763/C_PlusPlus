@@ -32,8 +32,15 @@ void			exam023();
 
 void			exam031();
 
-int				exam032();
+void			exam032();
 
+void			exam041();
+
+void			exam042();
+
+void			exam043();
+
+void			exam051();
 
 int				main111();
 

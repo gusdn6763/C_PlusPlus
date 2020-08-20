@@ -202,7 +202,7 @@ namespace Simulate
 	int main245()
 	{
 		int num;
-		Bank *bank = new Bank();
+		Bank *bank = new Bank("±¹¹Î");
 
 		StartSimulate();
 		People* currentPeople = MakePeople();

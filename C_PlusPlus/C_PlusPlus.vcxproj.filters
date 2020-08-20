@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\3강">
       <UniqueIdentifier>{19407088-da86-4cd6-bfe1-1c1a32f2c21c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\3강 문제">
+      <UniqueIdentifier>{f4e3f17e-d144-418d-b81c-5745d5de04f2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0강 선택.cpp">
@@ -149,6 +152,21 @@
     </ClCompile>
     <ClCompile Include="문제 03-2.cpp">
       <Filter>소스 파일\2강 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="문제 04-1.cpp">
+      <Filter>소스 파일\2강 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="문제 04-3.cpp">
+      <Filter>소스 파일\2강 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="문제 04-2.cpp">
+      <Filter>소스 파일\2강 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="문제 05-1.cpp">
+      <Filter>소스 파일\2강 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="문제 07-1.cpp">
+      <Filter>소스 파일\3강 문제</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -18,9 +18,8 @@ namespace Simulate
 	class			People
 	{
 	public:
-		People(string name, int money = 0) : currentMoney(money)
+		People(string name, int money = 0) : name(name),currentMoney(money)
 		{
-			this->name = name;
 		}
 		~People()
 		{
@@ -36,7 +35,12 @@ namespace Simulate
 
 	class			Bank
 	{
+	private:
+		string bank_name;
 	public:
+		Bank(string name) : bank_name(name)
+		{
+		}
 		void		MakeAccount(People *currentPeople);
 		bool		FindAccount(People* currentPeople);
 		int			CheckMoney(int money);
