@@ -9,7 +9,7 @@ typedef struct bank
 	int money;
 }bank;
 
-bank people[100];
+bank peopleInfo[100];
 
 int CheckMoney(int money)
 {
@@ -22,10 +22,10 @@ int CheckMoney(int money)
 void MakeBank(int i)
 {
 	cout << "\n[°èÁÂ°³¼³]" << endl;
-	people[i].id = getNumber("°èÁÂID:");
+	peopleInfo[i].id = getNumber("°èÁÂID:");
 	cout << "ÀÌ¸§";
-	cin >> people[i].name;
-	people[i].money = CheckMoney(getNumber("ÀÔ±Ý¾× : "));
+	cin >> peopleInfo[i].name;
+	peopleInfo[i].money = CheckMoney(getNumber("ÀÔ±Ý¾× : "));
 }
 
 void AddMoney()
@@ -34,13 +34,15 @@ void AddMoney()
 	cout << "[ÀÔ±Ý]" << endl;
 	id = getNumber("°èÁÂID : ");
 	for (int i = 0; i < 100; i++)
-		if (id == people[i].id)
+	{
+		if (id == peopleInfo[i].id)
 		{
-			people[i].money += CheckMoney(getNumber("ÀÔ±Ý¾× : "));
-			break ;
+			peopleInfo[i].money += CheckMoney(getNumber("ÀÔ±Ý¾× : "));
+			return ;
 		}
-		cout << "¾ø´Â °èÁÂÀÔ´Ï´Ù" << endl;
-		Sleep(1000);
+	}
+	cout << "¾ø´Â °èÁÂÀÔ´Ï´Ù" << endl;
+	Sleep(1000);
 }
 
 void MinusMoney()
@@ -49,14 +51,18 @@ void MinusMoney()
 	cout << "[Ãâ±Ý]" << endl;
 	id = getNumber("°èÁÂID : ");
 	for (int i = 0; i < 100; i++)
-		if (id == people[i].id)
+		if (id == peopleInfo[i].id)
 		{
 			save = CheckMoney(getNumber("Ãâ±Ý¾× : "));
-			if (save > people[i].id)
+			if (save > peopleInfo[i].id)
+			{
 				cout << "Ãâ±ÝÇÏ·Á´Â ±Ý¾×ÀÌ ´õ ¸¹½À´Ï´Ù" << endl;
+			}
 			else
-				people[i].money -= save;
-			cout << "ÀÜ¾× : " << people[i].money;
+			{
+				peopleInfo[i].money -= save;
+			}
+			cout << "ÀÜ¾× : " << peopleInfo[i].money;
 			Sleep(1000);
 			break;
 		}
@@ -71,11 +77,11 @@ void CheckInfo()
 	cin >> c;
 	for (int i = 0; i < 100; i++)
 	{
-		if (c == people[i].id)
+		if (c == peopleInfo[i].id)
 		{
-			cout << "°èÁÂid : " << people[i].id << endl;
-			cout << "°èÁÂÀÌ¸§ : " <<people[i].name <<endl;
-			cout << "°èÁÂ µ· : "<<people[i].money << endl;
+			cout << "°èÁÂid : " << peopleInfo[i].id << endl;
+			cout << "°èÁÂÀÌ¸§ : " <<peopleInfo[i].name <<endl;
+			cout << "°èÁÂ µ· : "<<peopleInfo[i].money << endl;
 		}
 	}
 	cout << " " << endl;

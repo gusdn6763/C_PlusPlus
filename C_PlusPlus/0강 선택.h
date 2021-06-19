@@ -1,4 +1,5 @@
 #pragma once
+//헤더파일 중복 선언 방지, 다른 컴파일러에서 사용될 수 있는지 확인이 필요
 
 #include <iostream>
 #include <windows.h>

@@ -1,8 +1,11 @@
 #include "Util.h"
 
-using namespace std; 
-  
-int getNumber(const char* str)
+/// <summary>
+/// 받은 매개변수값 뒤에 숫자값만 입력값을 받는다.
+/// </summary>
+/// <param name="str">문자열 출력</param>
+/// <returns></returns>
+int getNumber(const char* str = "")
 {
     int value;
     string checkint;

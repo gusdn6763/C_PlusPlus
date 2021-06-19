@@ -1,10 +1,7 @@
 #include "0강 선택.h"
 #include "2-4-5강 OOP프로젝트 2단계.h"
 #include "3-7-5강 OOP프로젝트 5단계.h"
-
-using namespace Simulate;
-using namespace Simulate2;
-
+  
 int main()
 {
 	int part, chapter, chapter_num;
@@ -296,6 +293,7 @@ int main()
 					main263();
 			}
 		}
+		cout << endl;
 	}
 }
 

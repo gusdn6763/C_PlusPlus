@@ -18,7 +18,7 @@ namespace Simulate
 	class			People
 	{
 	public:
-		People(string name, int money = 0) : name(name),currentMoney(money)
+		People(string name, int money = 0) : name(name), currentMoney(money)
 		{
 		}
 		~People()
@@ -26,7 +26,7 @@ namespace Simulate
 			cout << "캐릭터 삭제됨";
 		}
 		string		name;
-		void		GetInBank(Bank *bank);
+		void		GetInBank(Bank* bank);
 		void		Working();
 		void		ShowMyInfo();
 	private:

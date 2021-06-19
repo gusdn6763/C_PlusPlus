@@ -140,20 +140,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="0강 선택.cpp" />
-    <ClCompile Include="1-1-1강 c++기초.cpp" />
-    <ClCompile Include="1-1-2강 함수 오버로딩.cpp" />
-    <ClCompile Include="1-1-3강 매개변수 디폴트 값.cpp" />
-    <ClCompile Include="1-1-4강 인라인 함수.cpp" />
-    <ClCompile Include="1-1-5강 이름공간과 using.cpp" />
+    <ClCompile Include="1-1강 c++기초.cpp" />
+    <ClCompile Include="1-2강 함수 오버로딩.cpp" />
+    <ClCompile Include="1-3강 매개변수 디폴트 값.cpp" />
+    <ClCompile Include="1-4강 인라인 함수.cpp" />
+    <ClCompile Include="1-5강 이름공간과 using.cpp" />
     <ClCompile Include="1-1-6강 OOP프로젝트.cpp" />
-    <ClCompile Include="1-2-1강 Bool자료형.cpp" />
-    <ClCompile Include="1-2-2강 참조자의 이해.cpp" />
-    <ClCompile Include="1-2-3강 참조자와 함수.cpp" />
-    <ClCompile Include="1-2-4강 new 와 delete.cpp" />
-    <ClCompile Include="1-2-5강 C++에서 C호출하기.cpp" />
-    <ClCompile Include="2-3-1강 C++에서의 구조체.cpp" />
-    <ClCompile Include="2-3-2강 Car.cpp" />
-    <ClCompile Include="2-3-2강 클래스와 객체.cpp" />
+    <ClCompile Include="2-2강 Bool자료형.cpp" />
+    <ClCompile Include="2-3강 참조자의 이해.cpp" />
+    <ClCompile Include="2-4강 참조자와 함수.cpp" />
+    <ClCompile Include="2-5강 new 와 delete.cpp" />
+    <ClCompile Include="2-6강 C++에서 C호출하기.cpp" />
+    <ClCompile Include="3-1강 C++에서의 구조체.cpp" />
+    <ClCompile Include="3-2강 클래스와 객체.cpp" />
     <ClCompile Include="2-3-3강 객체지향 프로그래밍의 이해.cpp" />
     <ClCompile Include="2-4-1강 정보은닉.cpp" />
     <ClCompile Include="2-4-2강 갭슐화.cpp" />
@@ -187,7 +186,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="0강 선택.h" />
-    <ClInclude Include="2-3-2강 Car.h" />
     <ClInclude Include="2-3-3강 객체지향 프로그래밍의 이해.h" />
     <ClInclude Include="2-4-1강 정보은닉.h" />
     <ClInclude Include="2-4-5강 OOP프로젝트 2단계.h" />
