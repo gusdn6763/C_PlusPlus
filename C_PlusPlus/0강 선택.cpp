@@ -1,6 +1,5 @@
 #include "0강 선택.h"
-#include "2-4-5강 OOP프로젝트 2단계.h"
-#include "3-7-5강 OOP프로젝트 5단계.h"
+#include "4-5강 OOP프로젝트 2단계.h"
   
 int main()
 {
@@ -11,6 +10,7 @@ int main()
 		cout << "1.c++로의 전환" << endl;
 		cout << "2.객체지향의 도입" << endl;
 		cout << "3.상속" << endl;
+		cout << "5.OOP프로젝트" << endl;
 		cout << endl << "파트 선택 : ";
 		cin >> part;
 		system("cls");
@@ -31,7 +31,6 @@ int main()
 				cout << "3. 매개변수 디폴드 값" << endl;
 				cout << "4. 인라인 함수" << endl;
 				cout << "5. 이름공간과 using" << endl;
-				cout << "6. oop프로젝트" << endl;
 				cout << endl << "챕터 내용선택";
 				cin >> chapter_num;
 				if (chapter_num == 1)
@@ -44,8 +43,6 @@ int main()
 					main114();
 				else if (chapter_num == 5)
 					main115();
-				else if (chapter_num == 6)
-					main116();
 			}
 			else if (chapter == 2)
 			{
@@ -132,7 +129,6 @@ int main()
 				cout << "2. 캡슐화" << endl;
 				cout << "3 .생성자와 소멸자" << endl;
 				cout << "4. 클래스와 배열 그리고 this 포인터" << endl;
-				cout << "5. oop프로젝트 2단계" << endl;
 				cout << endl << "챕터 내용선택";
 				cin >> chapter_num;
 				if (chapter_num == 1)
@@ -143,8 +139,6 @@ int main()
 					main243();
 				if (chapter_num == 4)
 					main244();
-				if (chapter_num == 5)
-					Simulate::main245();
 			}
 			else if (chapter == 3)
 			{
@@ -227,7 +221,6 @@ int main()
 				cout << "2. 상속의 문법적인 이해" << endl;
 				cout << "3 .3가지 형태의 상속" << endl;
 				cout << "4. 상속의 조건" << endl;
-				cout << "5. OOP프로제트 5단계" << endl;
 				cout << endl << "챕터 내용선택";
 				cin >> chapter_num;
 				if (chapter_num == 1)
@@ -238,8 +231,6 @@ int main()
 					main373();
 				else if (chapter_num == 4)
 					main374();
-				else if (chapter_num == 5)
-					Simulate2::main375();
 			}
 			else if (chapter == 2)
 			{
@@ -248,7 +239,6 @@ int main()
 				cout << "2. 캡슐화" << endl;
 				cout << "3 .생성자와 소멸자" << endl;
 				cout << "4. 클래스와 배열 그리고 this 포인터" << endl;
-				cout << "5. oop프로젝트 2단계" << endl;
 				cout << endl << "챕터 내용선택";
 				cin >> chapter_num;
 				if (chapter_num == 1)
@@ -259,8 +249,6 @@ int main()
 					main243();
 				if (chapter_num == 4)
 					main244();
-				if (chapter_num == 5)
-					Simulate::main245();
 			}
 			else if (chapter == 5)
 			{
@@ -292,6 +280,10 @@ int main()
 				if (chapter_num == 3)
 					main263();
 			}
+		}
+		else if (part == 5)
+		{
+			Simulate::main245();
 		}
 		cout << endl;
 	}

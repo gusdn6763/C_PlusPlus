@@ -1,27 +1,42 @@
 #include "Util.h"
 
+bool is_digit(string str) 
+{
+    return atoi(str.c_str()) != 0 || str.compare("0") == 0;
+}
+
 /// <summary>
 /// 받은 매개변수값 뒤에 숫자값만 입력값을 받는다.
 /// </summary>
 /// <param name="str">문자열 출력</param>
 /// <returns></returns>
-int getNumber(const char* str = "")
+int GetNumber(const char* str = "")
 {
     int value;
+    bool isTrue = true;
     string checkint;
 
     cout << str;
     cin >> checkint;
-    for (int i = 0; i < (int)checkint.length(); i++)
+    if (!(is_digit(checkint)))
     {
-        if (isdigit(checkint[i]) == false)
-        {
-            cout << "숫자만 입력해주세요";
-            return getNumber(str);
-        }
+        cout << "숫자만 입력해주세요" << endl;
+        return GetNumber(str);
     }
-    value = std::stoi(checkint);
-    return value;
+    else
+    {
+        value = std::stoi(checkint);
+        return value;
+    }
+}
+
+string GetString(const char* str)
+{
+    string coutStr;
+
+    cout << str;
+    cin >> coutStr;
+    return coutStr;
 }
 
 int		ft_strcpy(char *dest, const char *src)

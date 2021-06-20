@@ -8,5 +8,6 @@
 
 using namespace std;
 
-int getNumber(const char* str);
+string GetString(const char* str = "");
+int GetNumber(const char* str);
 int	ft_strcpy(char* dest, const char* src);

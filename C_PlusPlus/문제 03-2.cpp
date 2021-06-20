@@ -51,10 +51,15 @@ void Printer::ShowString()
 }
 
 
+
 void	exam032()
 {
 	Calculator cal;
 
+	Printer print;
+
+	print.SetString("Hello");
+	print.ShowString();
 	while (1)
 	{
 		int num;
